@@ -3,7 +3,17 @@ public class Conditional1 {
 
 	public static void main(String[] args) {
 		
-		
+		{
+			int n1 = 34 ;
+			int n2 = 156 ;
+			int n3 = 57;
+			
+			int largest = n1 > n2 ? (n1>n3? n1 :n2) : (n2 > n3 ? n2 : n3 );
+			
+	   
+	   System.out.println("Largest : - "+largest);
+			
+			}
 		{
 			int a = 34 ;
 			int b = 156 ;
@@ -16,7 +26,10 @@ public class Conditional1 {
 	   System.out.println("Largest"+largest);
 			
 			}
-			
+		
+		
+		
+		
 			{
 			
 			int a = 34 ;
